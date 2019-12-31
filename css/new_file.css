@@ -1,0 +1,119 @@
+/*reset css 使默认值一致*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*通用的全局样式*/
+a{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style: none;
+}
+img{
+	/*防止图片出现白边*/
+	font-size: 0;
+	vertical-align: middle;
+}
+p{font-size: 15px;}
+body{
+	border-top: 3px solid darkorange;
+	background-color: whitesmoke;
+}
+h3{
+	margin-top: 5px;
+	margin-left: 2px;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.contaier{
+	width: 1003px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.top .nav img{
+	float: left;
+}
+.top .nav ul{
+	float: right;
+}
+.top .nav ul li{
+	float: left;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	margin: 10px 10px 0 0;
+}
+.top .nav ul li:hover{
+	background-color: orange;
+	color: white;
+}
+.top .nav ul li:first-child{
+	background-color: orange;
+	color: white;
+}
+.top .banner img{
+	width: 100%;
+	margin: 20px 0;
+}
+.main .up{
+	border-bottom: 1px solid gainsboro;
+	padding-bottom: 10px;
+}
+.main .up .lup{
+	float: left;
+	width: 55%;
+}
+.main .up .lup p{
+	text-indent: 2em;
+}
+.main .up .rup{
+	float: right;
+	width: 40%;
+}
+.main .left{
+	width: 53%;
+	float: left;
+}
+.main .left .news{
+	height: 21%;
+	width: 550px;
+	border-bottom: 1px dashed gainsboro;
+	margin-top: 5px;
+	padding-bottom: 2px;
+}
+.main .left .news p{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.main .left .news img{
+	float: left;
+	height: 100%;
+}
+
+.main .right{
+	width: 42%;
+	float: right;
+	height: 300px;
+	border-left: 1px solid gainsboro;
+}
+.main .right img{
+	margin: 5px;
+}
+.footer{
+	height: 100px;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+.footer p{
+	line-height: 28px;
+}
